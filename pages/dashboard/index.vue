@@ -21,19 +21,19 @@
 
     <f7-toolbar bg-color="white" tabbar bottom>
       <f7-link tab-link="#tab-1" tab-link-active>
-        <f7-icon color="pink" ios="f7:home"></f7-icon>
+        <f7-icon color="pink" ios="f7:home" material="home"></f7-icon>
       </f7-link>
       <f7-link tab-link="#tab-2">
-        <f7-icon color="pink" ios="f7:bars_chart"></f7-icon>
+        <f7-icon color="pink" ios="f7:bars_chart" material="insert_chart"></f7-icon>
       </f7-link>
       <f7-link tab-link="#tab-3">
-        <f7-icon color="pink" ios="f7:add_round_fill"></f7-icon>
+        <f7-icon color="pink" ios="f7:add_round_fill" material="add_circle"></f7-icon>
       </f7-link>
       <f7-link tab-link="#tab-4">
-        <f7-icon color="pink" ios="f7:placemark"></f7-icon>
+        <f7-icon color="pink" ios="f7:placemark" material="map"></f7-icon>
       </f7-link>
       <f7-link tab-link="#tab-5">
-        <f7-icon color="pink" ios="f7:person_round"></f7-icon>
+        <f7-icon color="pink" ios="f7:person_round" material="account_circle"></f7-icon>
       </f7-link>
     </f7-toolbar>
 
@@ -86,9 +86,5 @@ export default {
 <style>
 .card {
   border-radius: 15px;
-}
-
-.slider-card {
-  height: 30vh;
 }
 </style>

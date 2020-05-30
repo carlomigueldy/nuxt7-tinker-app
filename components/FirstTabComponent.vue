@@ -4,7 +4,7 @@
 
     <f7-row>
       <f7-col>
-        <f7-swiper>
+        <f7-swiper :params="{ slidesPerView: 1.5, spaceBetween: 0 }">
           <f7-swiper-slide>
             <f7-card bg-color="yellow" text-color="white" class="slider-card">
               <f7-card-content>
@@ -95,6 +95,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.slider-card {
+  height: 15vh;
+}
 </style>

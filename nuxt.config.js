@@ -14,9 +14,9 @@ module.exports = {
 
   // Framework7 Config
   framework7: {
-    app: {
-      theme: 'ios'
-    },
+    // app: {
+    //   theme: 'ios'
+    // },
     themeColor: '#ff2d55',
     // lightTheme: true,
     // darkTheme: false,

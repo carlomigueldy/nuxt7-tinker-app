@@ -35,11 +35,14 @@
     },
     methods: {
       async signIn() {
+        await this.$f7.preloader.show()
         const msg = `Username: ${this.username}<br>Password: ${this.password}`
-        await this.$f7.dialog.alert(msg, async () => {
+      
+        await setTimeout(async() => {
+          await this.$f7.preloader.hide()
           await this.$f7router.navigate({ name: 'dashboard' })
-          await this.$f7.loginScreen.close();
-        });
+          await this.$f7.loginScreen.close()
+        }, 1500)
       },
     },
   };
