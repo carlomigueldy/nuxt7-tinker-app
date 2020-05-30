@@ -17,9 +17,9 @@ module.exports = {
     app: {
       theme: 'ios'
     },
-    themeColor: '#3778C2',
-    lightTheme: true,
-    darkTheme: false,
+    themeColor: '#ff2d55',
+    // lightTheme: true,
+    // darkTheme: false,
   },
 
   // Build configuration
